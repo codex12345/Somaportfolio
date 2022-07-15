@@ -34,7 +34,7 @@
     width: 50%;
 }
 
-section{
+#section1{
     padding: 0 40px;
     display: flex;
 }
@@ -42,4 +42,36 @@ section{
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    justify-content: flex-end;
+    object-fit: cover;
+}
+button{
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    padding: 32px 16px;
+    font-size: large;
+    text-align: center;
+    
+}
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}
+    
+ 
+#header{
+    display: flex;
+    justify-content: space-between;
+    
+}   
+#sec2{
+    display: flex;
+    
+}
+#right{
+    flex-direction: end;
+    justify-content: flex-end;
+    
 }
